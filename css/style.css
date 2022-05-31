@@ -9,18 +9,18 @@
   cursor: pointer;
   color: #F0EDFF;
   font-family: "Tiro Devanagari Sanskrit", serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   padding: 11px 23px;
   text-decoration: none;
   text-shadow: 0px -1px 0px #2b665e;
+  width: 12rem;
+  height: 3rem;
 }
-
 .btn:hover {
   background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
   background-color: #6c7c7c;
 }
-
 .btn:active {
   position: relative;
   top: 1px;
@@ -35,8 +35,8 @@
 .card {
   background-color: #7D6179;
   color: #F0EDFF;
-  width: 20rem;
-  height: 15rem;
+  width: 30rem;
+  height: 22rem;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -54,10 +54,9 @@ body {
   place-items: center;
   align-items: center;
   font-family: "Tiro Devanagari Sanskrit", serif;
-  font-size: 20px;
+  font-size: 28px;
 }
-
-.container {
+body .container {
   display: flex;
   flex-direction: column;
   align-items: center;
