@@ -1,0 +1,14 @@
+.card{
+    background-color: $card-color;
+    color: $text-color;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding: 1rem;
+    text-shadow: 0px -1px 0px #2b665e;
+}

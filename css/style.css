@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&display=swap");
+.btn {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #F0EDFF;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #7D6179;
+  color: #F0EDFF;
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  padding: 1rem;
+  text-shadow: 0px -1px 0px #2b665e;
+}
+
+body {
+  background-color: #4B4A54;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  align-items: center;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+
+@import './abstracts/variables';
+
+@import './components/button';
+
+@import './base/reset';
+
+@import './components/card';
+
+@import './components/responsive';
+
+
+body{
+    background-color: $bg-color;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    align-items: center;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
